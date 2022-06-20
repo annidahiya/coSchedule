@@ -1,0 +1,69 @@
+.Navbar_Parent {
+    width: 100%;
+    height: 80px;
+    /* background: gray; */
+    padding: 0 15px;
+}
+.Navbar_Wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.Navbar_Wrapper div {
+    /* flex: 1; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Navbar_Left {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.Navbar_Left_innerContent ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.Navbar_Left_innerContent ul li {
+    list-style: none;
+    font-weight: 550;
+    color: #3b3b3b;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.Navbar_Left_innerContent ul li:hover {
+    color: #f37e5d;
+}
+.Navbar_Right {
+    display: flex;
+}
+.Navbar_Right_innerContent ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+.Navbar_Right_innerContent ul li {
+    list-style: none;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    color: #3b3b3b;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.Navbar_Right_innerContent ul li:hover {
+    color: #f37e5d;
+}
+.createCallender {
+    background: #f37e5d;
+    color: white;
+    font-weight: 700;
+    /* height: 60%; */
+    padding: 0 10px;
+    border-radius: 5px;
+}

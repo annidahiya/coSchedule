@@ -1,0 +1,121 @@
+
+ .continer {
+    /* position: absolute; */
+ 
+    width: 100vw;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    
+ }
+
+ .abcontaine {
+     margin-top: 5%;
+     width: 30%;
+     height: 500px;
+     border: 1px solid red;
+     margin: auto;
+     justify-content: center;
+ }
+
+
+ .a {
+    background-color: whitesmoke;  
+     justify-content: left;
+     
+     text-align: left; 
+     /* text-align: center; */
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+  }
+   .data {
+       width: 80%;
+       margin-top: 20px;
+       display: flex;
+       gap: 8px;
+       align-items: center;
+        height: 40px;
+        text-align: center;
+       /* background-color: whitesmoke;   */
+       border-radius: 25px;
+    
+   }
+     .data> p {
+         text-align: center;
+         margin-left: 0%;
+         width: 75%;
+         border-radius: 25px;
+        padding:35px;
+         background-color: whitesmoke; 
+           display: flex;
+           align-items: center;
+           height: 60%;
+     }
+      /* margin-left: 50px; */
+     .data > button {
+        /* background-color: whitesmoke;  */
+        border:  1px solid  whitesmoke; 
+        border-radius: 25px;
+     margin-left: -3%;
+     }
+     .input {
+       /* width: 0%; */
+       size: 30;
+       margin-top: 2%;
+       height: 50%;
+     }
+     .data > img {
+        /* width: 12%; */
+        height: 50%;
+     }
+  
+  
+  .b {
+      background-color: whitesmoke; 
+      padding: 15px;
+      width: 80%; 
+      color: black;
+      margin-top: 20px; 
+      border: 1px solid whitesmoke;
+      border-radius: 25px;
+  }
+  .c {
+      padding: 10px;
+      margin-left: 20px;
+      border-radius: 16px;
+      font-size: 20px;
+      width: 10%;
+      padding-top: 2%;
+      border: 1px solid whitesmoke;
+  }
+
+  .saveButton_todo {
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 30px 0;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .title_task_name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+  }
+  .title_task_name:focus {
+    border: none;
+    outline: none;
+  }

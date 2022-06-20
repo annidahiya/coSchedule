@@ -1,0 +1,123 @@
+
+.calender {
+    display: flex;
+    width: 100%;
+ 
+}
+.calender-navbar {
+    width: 75%;
+    background-color :
+    #f48461;
+/* background-image: linear-gradient(122deg, #f77d5b 5%, #f8a278 100%); */
+
+
+    height: 570px;
+    margin-right: 5px;
+}
+.calender-from {
+     width: 25%;
+    position: fixed;
+    /* border: 1px solid black; */
+    height: 100%;
+      margin-left: 75%;  
+     /* scroll-behavior: auto; */
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.celender-imglogo{
+    width: 35%;
+    margin-top: 5px
+ ;  margin-left: 20px;
+}
+.calender-market {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+     margin: auto; 
+   margin-top: 120px;
+    width: 80%;
+    height: 250px;
+ font: 1em sans-serif;
+    color: #787575;
+    line-height: 30px;
+    background-color: white;
+}
+.calender-marketwork {
+    width: 80%;
+    height: 230px;
+    margin: auto; 
+    border-radius: 15px;
+    background-color :
+    #f48461;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+background-image: linear-gradient(2deg, #f16d48 13%, #eb9469 100%); 
+}
+.calender-marketwork > div {
+ width: 80%;
+
+ margin: auto;
+}
+.calender-marketworks > div {
+    width: 80%;
+   
+    margin: auto;
+   }
+.calender-marketwork > div > h1 {
+    padding-top: 10%;
+}
+.calender-marketworks > div > h1 {
+    padding-top: 5%;
+}
+#market-calender-pro{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #fff5ef ;
+    height: auto;
+    color: #787575;
+
+}
+.calender-marketworks{
+    width: 80%;
+    height: 230px;
+    margin: auto; 
+    border-radius: 15px;
+    background-color :
+    #f48461;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 100pc;
+    text-align: center;
+background-image: linear-gradient(2deg, #f16d48 13%, #eb9469 100%); 
+}
+.studioFree {
+    margin: auto;
+   padding-top: 9%;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0px; */
+    width: 90%;
+  }
+  .studioFree > h2 {
+    color:#f16d48;
+  }
+  .button-n {
+    padding: 20px;
+    margin-left: 50%;
+    
+    margin-right: 10px;
+    width: auto;
+    background-color:#f16d48;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    margin-top: 5%;
+  }
+  .get-started{
+    margin-left: 10%;
+    width: 80%;
+  }
+  .get-started > p {
+    font-size: small;
+  }

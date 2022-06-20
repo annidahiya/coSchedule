@@ -1,0 +1,305 @@
+body{
+    background-color: #f8f8f8;
+}
+
+
+.customer_main_div{
+    height:260px;
+    display: flex;
+    background-image: linear-gradient(to right,  #2fadf8 , #2bd2f0);
+}
+
+.main_Div_Content{
+    margin:auto;
+    color:white;
+}
+
+.content1_div{
+    margin-top:-45px;
+}
+
+.content1{
+    font-weight: 550;
+    font-family: "MuseoSans-300",sans-serif; 
+    font-size: 13px; 
+    /* letter-spacing: 1px; */
+    text-align: center; 
+}
+
+.content2_div{
+    height:60px
+}
+.content2{
+    text-align: center;
+    font-size:50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 12px;
+    /* letter-spacing: 0.5px; */
+}
+
+.content3_div{
+    height:60px
+}
+
+.content3{
+    font-size:18px;
+    font-family: "MuseoSans-250",sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    line-height:10px;
+}
+  
+/* this is filter  div css files */
+.filter_main_div{
+   padding-top: 60px;
+   background-color: #f8f8f8;
+   margin-bottom: 20px;
+}
+
+.filter_div{
+    display: flex;
+    color: #bababa;
+    width:78%;
+    margin: auto;
+    height:40px; 
+}
+
+.filter_content1{
+    font-weight: 500;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+    margin: 10px 0;
+    margin-right: 15px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.filter_content2{
+    height: 40px;
+    background-color:white;
+    color: #787878;
+    border:none;
+    width:180px;
+}
+
+.filter_content2>option{
+    font-size: 16px;
+}
+
+.filter_hr{
+    width:78%;
+    color: #787878;
+    background-color:#787878 ;
+}
+
+/* here mapping data modules css file starts*/
+
+.sort_main_div{
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    justify-content:center;
+    gap:15px;
+    margin-top: 20px;
+    border:#5624e0
+}
+
+.card{
+    background: #fff;
+    display: block;
+    float: left;
+    margin: .6%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #e9e9e9;   
+    transition: .3s box-shadow ease-in-out;
+}
+
+.card:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_img{
+     background-color: #30aff9;
+     border-radius: 3px;
+     margin: 0px 0px 20px 0px;
+     height: 180px;
+}
+
+.card_img>img{
+    padding:60px;
+    width:60%;
+}
+
+.card_header{  
+    width:92%;
+    margin-left: 4%;
+    text-align:left;
+    height:130px
+}
+
+.para{
+    color:#514b4b
+}
+
+.card_nextpage{  
+    width:92%;
+    margin-left: 4%;
+    text-align:left; 
+}
+
+.para1{
+    color: #30aff9;
+    font-weight: 530;
+    text-align: left;
+}
+
+/* her i added ready to get deatils before footer div details */
+
+.last_main_div{
+    display:flex;
+    margin:auto;
+    margin-top:60px;
+    height:230px;
+    margin-bottom: 300px;
+    /* border:1px solid red */
+    
+}
+
+.last_div{
+    margin:auto;
+    width:75%;
+    height:275px;
+    background-image: linear-gradient(to right ,#f3815f, #f6936d,#f8a57a);
+}
+
+.last_h1{
+    /* text-align:center; */
+    /* justify-content:center; */
+    margin-top:60px;
+    color:white;
+    font-size:30px;
+}
+
+.last_p{
+    color:#fef1f1;
+    margin-top:-15px;
+     font-family: "Merriweather",serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.last_input{
+    height:60px;
+    width:210px;
+    font-size: 18px;
+    text-align:center;
+    background-color:#f6936d;
+    color:white;
+    border:2px solid white;
+    outline:none;
+    border-radius:4px;
+    font-weight: 550;
+    margin-top:15px; 
+}
+
+::placeholder{
+   color:white;
+   font-size: 18px;
+}
+
+/* i am giving media queries for small and mediucm screen also  */
+
+
+
+@media  (max-width: 450px) {
+
+
+
+    .customer_main_div{
+        height:360px;
+        display: flex;
+        background-image: linear-gradient(to right,  #2fadf8 , #2bd2f0);
+    }
+    
+    .main_Div_content{
+        margin:auto;
+        color:white;
+        
+    }
+
+    .content1_div{
+        margin-top:-45px;
+    }
+
+    .content1{
+        font-weight: 550;
+        font-family: "MuseoSans-300",sans-serif; 
+        font-size: 13px; 
+        /* letter-spacing: 1px; */
+        text-align: center;
+       
+    }
+  
+    .content2_div{
+        height:120px;   
+        /* 60px */
+        
+    }
+
+    .content2{
+        text-align: center;
+        font-size:50px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-top: 12px;
+        
+        /* letter-spacing: 0.5px; */
+    }
+
+    .content3_div{
+        height:60px
+    }
+
+    .content3{
+        font-size:18px;
+        font-family: "MuseoSans-250",sans-serif;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 2px;
+        line-height:15px;
+    }
+
+
+
+    /* Here i given mapping media querry */
+
+    .sort_main_div{
+        display: grid;
+        grid-template-columns: repeat(1,98%);
+    }
+
+    .card_img>img{
+        padding:45px;
+        width:60%;
+        height:50%;
+    }
+
+    .card_header{
+        width:92%;
+        margin-left: 4%;
+        text-align:left;
+    
+    }
+    
+    .card_nextpage{   
+        width:92%;
+        margin-left: 4%;
+        text-align:left;
+        margin-top: -10px; 
+    }
+
+}

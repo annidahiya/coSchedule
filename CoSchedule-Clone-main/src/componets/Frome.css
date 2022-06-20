@@ -1,0 +1,23 @@
+
+
+ .div {
+    margin: auto;
+    justify-content: center;
+    
+    width: 80%;
+    /* text-align: center; */
+  }
+
+  .div > input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(197, 192, 192);
+  }
+
+  .div > label {
+    font-size: small;
+  }
+
+  

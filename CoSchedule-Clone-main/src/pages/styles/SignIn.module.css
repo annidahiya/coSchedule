@@ -1,0 +1,95 @@
+.SignIn_Parent {
+    height: 100vh;
+    width: 100vw;
+    /* background: gray; */
+    background: linear-gradient(to top right,#B3B3B3,#E6E6E6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.LeftBox {
+    bottom: -50px;
+    left: -20px;
+    position: fixed;
+    width: 250px;
+    opacity: .4;
+}
+.RightBox {
+    top: -50px;
+    right: -20px;
+    position: fixed;
+    width: 250px;
+    opacity: .4;
+}
+.SignIn_Container {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 200px);
+    z-index: 1;
+    width: 33.33%;
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    background-color: #f7f7f7;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 30%);
+}
+.LogoWrapper {
+    padding: 30px 75px 40px;
+}
+.SignIn_Form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.SignIn_Form div label {
+    font-size: 12px;
+    color: #7e7e7e;
+}
+.SignIn_Form div input {
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+    padding: 15px 15px 13px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+}
+.SignIn_Form div input:focus {
+    outline: none;
+}
+.SignIn_Btn {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d17760;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.SignIn_bottom {
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: center;
+    color: #5a5a5a;
+    font-size: 14px;
+    gap: 10px;
+}
+.SignIn_bottom span {
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.SignIn_bottom span:hover {
+    font-weight: bold;
+}
